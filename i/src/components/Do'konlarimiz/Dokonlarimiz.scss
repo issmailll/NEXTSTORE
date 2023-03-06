@@ -1,0 +1,30 @@
+.dokon__title {
+  margin-bottom: 20px;
+}
+.dokon__list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.dokon__item {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.dokon__item-img {
+  width: 188px;
+}
+@media only screen and (max-width: 1230px) {
+  .dokon__item {
+    margin-right: 8px;
+    margin-bottom: 10px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  .dokon__item-img {
+    width: 150px;
+  }
+}

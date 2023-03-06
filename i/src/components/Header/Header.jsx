@@ -4,10 +4,17 @@ import siteLogo from "../../assets/site-logo.svg";
 import favouriteIcon from "../../assets/favourite-icon.svg";
 import shoppingIcon from "../../assets/shopping-icon.svg";
 import profileImg from "../../assets/profile-img.svg";
+import Catalog from "../Catalog/Catalog";
+import { useState } from "react";
 
 // ---------------------------------------------------------IMPORTS---------------------------------
 
 function Header() {
+  const [showCatalog, setShowCatalog] = useState(false);
+
+  const toggleCatalog = () => {
+    setShowCatalog(!showCatalog);
+  };
   return (
     <>
       <div className="header">
@@ -36,7 +43,10 @@ function Header() {
                   alt="site-logo"
                 />
               </a>
-              <button className="header-main__btn">Katalog</button>
+              <button onClick={toggleCatalog} className="header-main__btn">
+                Katalog
+              </button>
+              {showCatalog && <Catalog />}
               <button className="header-main__burger-btn">
                 <span className="visually-hidden">Toggler Menu Button</span>
                 <span className="header-main__burger-span"></span>

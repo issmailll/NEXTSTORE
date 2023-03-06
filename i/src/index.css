@@ -34,6 +34,9 @@ ul{
   white-space: nowrap;
   width: 1px;
 }
+.main{
+  background-color: #ECF4FF;
+}
 @media only screen and (max-width:1230px) {
   .container{
     max-width: 340px;

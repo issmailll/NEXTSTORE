@@ -1,0 +1,73 @@
+.header-main {
+  position: relative;
+}
+.catalog {
+  z-index: 5;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  display: flex;
+  align-items: flex-start;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 30px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+.catalog__title-list {
+  background: linear-gradient(96.78deg, #f64d4d -57.09%, #4d5ef6 101.17%);
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.12);
+  border-radius: 8px 0px 0px 8px;
+  min-width: 292px;
+  padding: 20px 0 200px 27px;
+}
+.catalog__title {
+  margin-bottom: 17px;
+  padding: 10px 10px 12px 18px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.brandSerai-wrapper {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 20px;
+  padding-top: 30px;
+}
+.brend__list {
+  min-width: 208px;
+}
+.brend__item {
+  margin-bottom: 10px;
+}
+.brend__item-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1e1e1e;
+}
+.bren__item-name {
+  margin-bottom: 10px;
+}
+.seria__list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.seria__item {
+  min-width: 206px;
+  margin-bottom: 80px;
+  padding-bottom: 30px;
+}
+.catalog__title--aksiya {
+  position: relative;
+  &::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 16px;
+    background: url(../../assets/fire-icon.svg) no-repeat center center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -10px;
+  }
+}

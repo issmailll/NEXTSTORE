@@ -1,0 +1,33 @@
+.brends__list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.brends__item {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.brends__title {
+  margin-bottom: 20px;
+  font-weight: 591;
+  font-size: 28px;
+  line-height: 34px;
+}
+.brends__img{
+    max-width: 188px;
+  }
+@media only screen and (max-width: 1230px) {
+  .brends__item {
+    margin-right: 8px;
+    margin-bottom: 10px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  .brends__img{
+    max-width: 150px;
+  }
+}
