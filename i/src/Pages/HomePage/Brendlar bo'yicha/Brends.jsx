@@ -1,14 +1,14 @@
 import React from "react";
 import "./brends.scss";
-import hp from "../../assets/hp.svg";
-import acer from "../../assets/acer.svg";
-import asus from "../../assets/asusu.svg";
-import samsung from "../../assets/samsung.svg";
-import apple from "../../assets/apple.svg";
-import msu from "../../assets/msu.svg";
-import mi from "../../assets/mi.svg";
-import vivo from "../../assets/vivo.svg";
-import empty from "../../assets/empty.svg";
+import hp from "../../../assets/hp.svg";
+import acer from "../../../assets/acer.svg";
+import asus from "../../../assets/asusu.svg";
+import samsung from "../../../assets/samsung.svg";
+import apple from "../../../assets/apple.svg";
+import msu from "../../../assets/msu.svg";
+import mi from "../../../assets/mi.svg";
+import vivo from "../../../assets/vivo.svg";
+import empty from "../../../assets/empty.svg";
 
 function Brends() {
   return (

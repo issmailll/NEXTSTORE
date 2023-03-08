@@ -1,11 +1,11 @@
 import React from "react";
 import "./Dokonlarimiz.scss";
-import elmakon from "../../assets/elmakon.svg";
-import texnomart from "../../assets/texnomart.svg";
-import mediapark from "../../assets/mediapark.svg";
-import sandiq from "../../assets/sandiq.svg";
-import goodzona from "../../assets/ggodzona.svg";
-import unknown from "../../assets/unknown.svg";
+import elmakon from "../../../assets/elmakon.svg";
+import texnomart from "../../../assets/texnomart.svg";
+import mediapark from "../../../assets/mediapark.svg";
+import sandiq from "../../../assets/sandiq.svg";
+import goodzona from "../../../assets/ggodzona.svg";
+import unknown from "../../../assets/unknown.svg";
 
 function Dokonlarimiz() {
   return (

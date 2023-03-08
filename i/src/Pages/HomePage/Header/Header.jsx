@@ -1,20 +1,48 @@
 import React from "react";
 import "./header.scss";
-import siteLogo from "../../assets/site-logo.svg";
-import favouriteIcon from "../../assets/favourite-icon.svg";
-import shoppingIcon from "../../assets/shopping-icon.svg";
-import profileImg from "../../assets/profile-img.svg";
+import siteLogo from "../../../assets/site-logo.svg";
+import favouriteIcon from "../../../assets/favourite-icon.svg";
+import shoppingIcon from "../../../assets/shopping-icon.svg";
+import profileImg from "../../../assets/profile-img.svg";
 import Catalog from "../Catalog/Catalog";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import ModalAA from "../MyModal/MyModal";
+import MobileKirish from "../../../components/MobileKirish/MobileKirish";
+import ChiqishDesktop from "../../../components/DesktopChiqish/ChiqishDesktop";
 
 // ---------------------------------------------------------IMPORTS---------------------------------
 
 function Header() {
   const [showCatalog, setShowCatalog] = useState(false);
 
+  const [showChiqish, setShowChiqish] = useState(false);
+
+  const [modalShow, setModalShow] = React.useState(false);
+
+  const [authToken, setAuthToken] = useState(null);
+
+  const [showMenu, setShowMenu] = useState(false);
+
+
+  const handleProfileImgClick = () => {
+    setShowChiqish(!showChiqish);
+  };
+
   const toggleCatalog = () => {
     setShowCatalog(!showCatalog);
   };
+
+  useEffect(() => {
+    const storedAuthToken = localStorage.getItem("mobile");
+    if (storedAuthToken) {
+      setAuthToken(storedAuthToken);
+    }
+  }, []);
+
+  const handleMenuClick = () => {
+    setShowMenu(!showMenu);
+  };
+
   return (
     <>
       <div className="header">
@@ -47,10 +75,14 @@ function Header() {
                 Katalog
               </button>
               {showCatalog && <Catalog />}
-              <button className="header-main__burger-btn">
-                <span className="visually-hidden">Toggler Menu Button</span>
-                <span className="header-main__burger-span"></span>
+
+              <button
+                className="header-main__burger-btn"
+                onClick={handleMenuClick}
+              >
+                {showMenu ? "X" : "☰"}
               </button>
+              {showMenu && <MobileKirish />}
             </div>
 
             {/* ------------------------------------------------------------------------------------------- */}
@@ -75,19 +107,30 @@ function Header() {
                   <img src={shoppingIcon} alt="korzina-icon" />
                 </a>
                 <div>
-                  <img
-                    className="header-main__profile-img"
-                    src={profileImg}
-                    alt="profile-img"
+                  {authToken ? (
+                    <img
+                      onClick={handleProfileImgClick}
+                      className="header-main__profile-img"
+                      src={profileImg}
+                      alt="profile-img"
+                    />
+                  ) : (
+                    <button
+                      onClick={() => setModalShow(true)}
+                      className="header-main__kirish-btn"
+                    >
+                      Kirish
+                    </button>
+                  )}
+                  <ModalAA
+                    show={modalShow}
+                    onHide={() => setModalShow(false)}
                   />
-                  <a className="header-main__kirish-btn" href="#">
-                    Kirish
-                  </a>
+                  {showChiqish && <ChiqishDesktop />}
                 </div>
               </nav>
             </div>
           </div>
-
           {/* header main ------------------------------------------------------------------------------- */}
         </div>
       </div>

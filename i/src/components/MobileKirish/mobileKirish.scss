@@ -1,0 +1,165 @@
+.mobKirish {
+  display: none;
+}
+@media only screen and (max-width: 1230px) {
+  .header-main__burger-btn {
+    z-index: 100;
+  }
+  .mobKirish {
+    display: block;
+    min-width: 300px;
+    max-width: 300px;
+    position: absolute;
+    top: 0;
+    left: -10px;
+    z-index: 10;
+    background-color: #ffffff;
+    padding: 50px 20px 30px;
+  }
+  .mobKirish__btn {
+    display: block;
+    width: 100%;
+    background: linear-gradient(
+      270deg,
+      rgba(77, 94, 246, 0.2) 0%,
+      rgba(246, 77, 77, 0.2) 100%
+    );
+    border-radius: 10px;
+    padding: 13px 0;
+    margin-bottom: 32px;
+    border: none;
+    position: relative;
+  }
+  .mobKirish__btn {
+    &::after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 1px;
+      background-color: #e4e7ee;
+      position: absolute;
+      bottom: -15px;
+      left: 0;
+    }
+  }
+  .mobKirish__input {
+    display: block;
+    margin-right: 20px;
+  }
+  .mobKirish__label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+  }
+  .mobKirish__input-wrapper {
+    margin-bottom: 37px;
+  }
+  .mobKirish__title {
+    font-weight: 591;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1e1e1e;
+    margin-bottom: 22px;
+  }
+  .mobKirish__list {
+    margin-bottom: 200px;
+    position: relative;
+    &::before {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 1px;
+      background-color: #e4e7ee;
+      position: absolute;
+      top: -65px;
+      left: 0;
+    }
+  }
+  .mobKirish__item {
+    font-weight: 653;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #101828;
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .mobKirish__item--rightArrow::after {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../../assets/rightArrow.svg);
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  .mobKirish__btm-text {
+    font-weight: 653;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #1e1e1e;
+    margin-bottom: 15px;
+  }
+  .mobKirish__link {
+    display: block;
+    font-weight: 539;
+    font-size: 14px;
+    line-height: 17px;
+    color: #0d63f3;
+    margin-bottom: 5px;
+  }
+  .img__wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+    position: relative;
+    padding-bottom: 10px;
+    &::before{
+      content: '';
+      display: block;
+      width: 24px;
+      height: 24px;
+      background: url(../../assets/rightArrow.svg) no-repeat center center;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 0;
+    }
+  }
+  .img-main-wrapper {
+    border: none;
+    margin-bottom: 25px;
+    position: relative;
+    &::after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 1px;
+      background-color: #e4e7ee;
+      position: absolute;
+      bottom: -10px;
+      left: 0;
+    }
+  }
+  .img__number-wrapper {
+    margin-left: 20px;
+  }
+  .img__name {
+    margin: 0;
+    font-weight: 653;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #1e1e1e;
+    margin-bottom: 5px;
+  }
+  .img__number {
+    margin: 0;
+    font-weight: 539;
+    font-size: 14px;
+    line-height: 17px;
+    color: #1e1e1e;
+  }
+}

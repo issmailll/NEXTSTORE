@@ -1,0 +1,48 @@
+.chiqish-list {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 30px;
+}
+.chiqish-item {
+  margin-bottom: 12px;
+  position: relative;
+  padding-left: 30px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  &::before {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../../assets/chiqish-kontact.svg) no-repeat center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+.chiqish-item--buyurtmalar::before {
+  background: url(../../assets/chiqish-buyurtmalar.svg) no-repeat center center;
+}
+.chiqish-item--favourite::before {
+  background: url(../../assets/chiqish-favourite.svg) no-repeat center center;
+}
+.chiqish-item--location::before {
+  background: url(../../assets/chiqish-location.svg) no-repeat center center;
+}
+.chiqish-item--chiqish {
+  display: none;
+}
+@media only screen and (max-width: 1230px) {
+  .chiqish-item--chiqish {
+    display: block;
+  }
+  .chiqish-item--chiqish::before {
+    background: url(../../assets/chiqish-arrow.svg) no-repeat center center;
+  }
+  .chiqish-btn {
+    background-color: transparent;
+    border: none;
+    color: #ff0101;
+  }
+}

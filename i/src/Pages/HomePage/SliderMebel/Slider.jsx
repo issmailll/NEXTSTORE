@@ -1,7 +1,7 @@
 import React from "react";
 import "./slider.scss"
 import "swiper/swiper.min.css";
-import sliderMebelImg from "../../assets/sliderMebelImg.png";
+import sliderMebelImg from "../../../assets/sliderMebelImg.png";
 import Swiper, { Navigation } from "swiper";
 
 Swiper.use([Navigation]);

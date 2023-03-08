@@ -1,0 +1,35 @@
+.form {
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 80px 60px 80px 42px;
+  max-width: 466px;
+  text-align: center;
+  border-radius: 10px;
+  border: 1px solid #000;
+}
+.form-title {
+  margin-bottom: 50px;
+  font-size: 28px;
+}
+.log-inputs {
+  margin-bottom: 35px;
+  padding: 10px;
+  border-radius: 10px;
+  min-width: 346px;
+}
+.log-btn {
+  min-width: 346px;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 1230px) {
+  .form {
+    margin-top: 70px;
+    padding: 80px 5px;
+  }
+  .log-inputs {
+    min-width: 300px;
+  }
+  .log-btn {
+    min-width: 300px;
+  }
+}

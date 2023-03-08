@@ -1,0 +1,26 @@
+.modal-wrapper {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin: 0 auto;
+}
+.modal__title {
+  text-align: center;
+  margin-bottom: 75px;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+}
+.modal__login-btn {
+  min-width: 334px;
+}
+.modal__text {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  color: #6c757d;
+  text-align: center;
+}
+.modal__auth-btn {
+  background: linear-gradient(270deg, #4d5ef6 0%, #f64d4d 100%);
+  min-width: 334px;
+  margin: 0 auto;
+}

@@ -1,9 +1,9 @@
 import React from "react";
 import "./footer.scss";
-import facebookLogo from "../../assets/facebookLogo.svg";
-import instagramLogo from "../../assets/instagramLogo.svg";
-import tiktokLogo from "../../assets/tiktokLogo.svg";
-import telegramLogo from "../../assets/teleframLogo.svg";
+import facebookLogo from "../../../assets/facebookLogo.svg";
+import instagramLogo from "../../../assets/instagramLogo.svg";
+import tiktokLogo from "../../../assets/tiktokLogo.svg";
+import telegramLogo from "../../../assets/teleframLogo.svg";
 
 function Footer() {
   return (

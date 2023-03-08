@@ -1,22 +1,17 @@
 import React from "react";
-import Brends from "./components/Brendlar bo'yicha/Brends";
-import Dokonlarimiz from "./components/Do'konlarimiz/Dokonlarimiz";
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
-import Intro from "./components/Intro/Intro";
-import SliderMebel from "./components/SliderMebel/Slider";
+import HomePage from "./Pages/HomePage/HomePage";
+import { Routes, Route } from "react-router-dom";
+import Auth from "./Pages/Kirish/Auth/Auth";
+import Login from "./Pages/Kirish/Login/Login";
 
 function App() {
   return (
     <>
-      <Header />
-      <main className="main">
-        <Intro />
-        <Brends />
-        <SliderMebel />
-        <Dokonlarimiz />
-      </main>
-      <Footer />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/auth" element={<Auth />} />
+      </Routes>
     </>
   );
 }

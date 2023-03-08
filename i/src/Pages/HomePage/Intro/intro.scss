@@ -22,7 +22,7 @@
     width: 42px;
     height: 42px;
     position: absolute;
-    background: url(../../assets/sliderRightBtn.svg) no-repeat center center;
+    background: url(../../../assets/sliderRightBtn.svg) no-repeat center center;
     top: 0;
     right: 0;
   }
@@ -40,7 +40,7 @@
     width: 42px;
     height: 42px;
     position: absolute;
-    background: url(../../assets/sliderLeftBtn.svg) no-repeat center center;
+    background: url(../../../assets/sliderLeftBtn.svg) no-repeat center center;
     top: 0;
     left: 0;
   }
@@ -73,7 +73,7 @@
   .swiper-button-prev {
     z-index: 5;
     &::before {
-      background: url(../../assets/sliderMobileLeftArrow.png) no-repeat center
+      background: url(../../../assets/sliderMobileLeftArrow.png) no-repeat center
         center;
       top: -21px;
       left: 58px;
@@ -82,7 +82,7 @@
   .swiper-button-next {
     z-index: 5;
     &::before {
-      background: url(../../assets/sliderMobile-arrowrght.svg) no-repeat center
+      background: url(../../../assets/sliderMobile-arrowrght.svg) no-repeat center
         center;
       top: -21px;
       right: 58px;
