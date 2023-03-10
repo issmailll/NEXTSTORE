@@ -1,0 +1,69 @@
+.header{
+    margin-bottom: 0;
+}
+.search__list {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 151px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding-left: 30px;
+}
+.search__main {
+  background-color: #ecf4ff;
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+.search__item {
+  background: #ffffff;
+  border-radius: 10px;
+  max-width: 230px;
+  min-width: 230px;
+  padding: 10px 10px 23px 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.search__item-cost {
+  font-weight: 591;
+  font-size: 18px;
+  line-height: 22px;
+  color: #0d63f3;
+  margin: 0;
+  margin-bottom: 6px;
+}
+.search__item-description {
+  font-weight: 539;
+  font-size: 14px;
+  line-height: 17px;
+  color: #1e1e1e;
+  margin: 0;
+  margin-bottom: 16px;
+}
+.search__item-orders {
+  font-weight: 539;
+  font-size: 14px;
+  line-height: 17px;
+  color: #6c757d;
+  margin: 0;
+  margin-bottom: 25px;
+}
+.search__link-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search__link {
+  background: #0d63f3;
+  border-radius: 8px;
+  color: #ffffff;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  &:hover {
+    color: #ffffff;
+  }
+}
+.search__shopping-icon {
+  cursor: pointer;
+}

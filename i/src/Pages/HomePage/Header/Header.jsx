@@ -9,6 +9,7 @@ import { useState, useEffect } from "react";
 import ModalAA from "../MyModal/MyModal";
 import MobileKirish from "../../../components/MobileKirish/MobileKirish";
 import ChiqishDesktop from "../../../components/DesktopChiqish/ChiqishDesktop";
+import { useNavigate } from "react-router-dom";
 
 // ---------------------------------------------------------IMPORTS---------------------------------
 
@@ -23,6 +24,9 @@ function Header() {
 
   const [showMenu, setShowMenu] = useState(false);
 
+  const navigate = useNavigate();
+
+  const [searchTerm, setSearchTerm] = useState("");
 
   const handleProfileImgClick = () => {
     setShowChiqish(!showChiqish);
@@ -41,6 +45,15 @@ function Header() {
 
   const handleMenuClick = () => {
     setShowMenu(!showMenu);
+  };
+
+  function handleSearchSubmit(event) {
+    event.preventDefault();
+    navigate(`/search?q=${searchTerm}`);
+  }
+
+  const handleInputChange = (event) => {
+    setSearchTerm(event.target.value);
   };
 
   return (
@@ -88,17 +101,26 @@ function Header() {
             {/* ------------------------------------------------------------------------------------------- */}
 
             <div className="header-main__search-wrapper">
-              <label
-                className="header-main__input-label"
-                htmlFor="header-main__search-input"
-              >
-                <input
-                  className="header-main__search-input"
-                  type="search"
-                  placeholder="Maxsulotlarni izlash"
-                />
-                <button className="header-main__input-btn"></button>
-              </label>
+              {/* -------------------------------------------------- */}
+              <form onSubmit={handleSearchSubmit}>
+                <label
+                  className="header-main__input-label"
+                  htmlFor="header-main__search-input"
+                >
+                  <input
+                    value={searchTerm}
+                    onChange={handleInputChange}
+                    className="header-main__search-input"
+                    type="search"
+                    placeholder="Maxsulotlarni izlash"
+                  />
+                  <button
+                    onClick={handleSearchSubmit}
+                    className="header-main__input-btn"
+                  ></button>
+                </label>
+              </form>
+              {/* -------------------------------------------------- */}
               <nav className="header-main__navbar">
                 <a className="header-main__favourite-link" href="#">
                   <img src={favouriteIcon} alt="favourite-icon" />

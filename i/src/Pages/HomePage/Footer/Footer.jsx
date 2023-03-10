@@ -41,7 +41,7 @@ function Footer() {
                 <a className="footer__item-link" href="#">contact.@nextstore.uz</a>
                 <a className="footer__item-link footer__item-link--number" href="#">+998 97 712 96 96</a>
                 <a className="footer__item-link" href="#">+998 95 503 09 09</a>
-                <a className="footer__item-link" href="#">Sag’bon 186, Olmazor tumani, Toshkent, O'zbekiston</a>
+                <a className="footer__item-link" href="#">Sag’bon 186, Olmazor tumani, Toshkent, <br /> O'zbekiston</a>
 
                 {/* social ------------------------------------------------------------------------ */}
 

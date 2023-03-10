@@ -5,6 +5,8 @@ import Footer from "./Footer/Footer";
 import Header from "./Header/Header";
 import SliderMebel from "../../Pages/HomePage/SliderMebel/Slider";
 import Intro from "./Intro/Intro";
+import Category from "./Category/Category";
+import Sotilgan from "./EngKopSotilgan/Sotilgan";
 
 function HomePage() {
   return (
@@ -12,8 +14,11 @@ function HomePage() {
       <Header />
       <main className="main">
         <Intro />
-        <Brends />
+        <Category/>
+        <Sotilgan/>
         <SliderMebel />
+        <Brends />
+        <SliderMebel/>
         <Dokonlarimiz />
       </main>
       <Footer />

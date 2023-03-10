@@ -1,0 +1,619 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "img": "https://media.istockphoto.com/id/492490622/photo/macbook-pro.jpg?s=612x612&w=0&k=20&c=dpiwULyQyJVHPJtTl6Kfyg0lZgcOM0NcmjnVxzh_myA=",
+      "name": "iphone",
+      "company": "apple",
+      "cost": 1000,
+      "orders": 2000,
+      "description": "Apple Macbook Pro 13 2.4 2019 DDR3 8 GB SSD 256 GB "
+    },
+    {
+      "id": 2,
+      "img": "https://media.istockphoto.com/id/492490622/photo/macbook-pro.jpg?s=612x612&w=0&k=20&c=dpiwULyQyJVHPJtTl6Kfyg0lZgcOM0NcmjnVxzh_myA=",
+      "name": "iphone",
+      "company": "apple",
+      "cost": 2000,
+      "orders": 1000,
+      "description": "Oynali Fotoaparat Canon EOS 6D Body"
+    },
+    {
+      "id": 3,
+      "img": "https://media.istockphoto.com/id/492490622/photo/macbook-pro.jpg?s=612x612&w=0&k=20&c=dpiwULyQyJVHPJtTl6Kfyg0lZgcOM0NcmjnVxzh_myA=",
+      "name": "iphone",
+      "company": "apple",
+      "cost": 3000,
+      "orders": 4000,
+      "description": "Apple Airpods Pro simsiz quloqchin , Oq rangda   "
+    },
+    {
+      "id": 4,
+      "img": "https://media.istockphoto.com/id/492490622/photo/macbook-pro.jpg?s=612x612&w=0&k=20&c=dpiwULyQyJVHPJtTl6Kfyg0lZgcOM0NcmjnVxzh_myA=",
+      "name": "iphone",
+      "company": "apple",
+      "cost": 4000,
+      "orders": 3000,
+      "description": "Robot - tozalagich Xiaomi Mi Robot"
+    },
+    {
+      "id": 5,
+      "img": "https://media.istockphoto.com/id/492490622/photo/macbook-pro.jpg?s=612x612&w=0&k=20&c=dpiwULyQyJVHPJtTl6Kfyg0lZgcOM0NcmjnVxzh_myA=",
+      "name": "iphone",
+      "company": "apple",
+      "cost": 5000,
+      "orders": 12000,
+      "description": "Oynali Fotoaparat Canon EOS 6D Body"
+    },
+    {
+      "id": 6,
+      "img": "https://media.istockphoto.com/id/492490622/photo/macbook-pro.jpg?s=612x612&w=0&k=20&c=dpiwULyQyJVHPJtTl6Kfyg0lZgcOM0NcmjnVxzh_myA=",
+      "name": "iphone",
+      "company": "apple",
+      "cost": 1000,
+      "orders": 2000,
+      "description": "Apple Macbook Pro 13 2.4 2019 DDR3 8 GB SSD 256 GB "
+    },
+    {
+      "id": 7,
+      "img": "https://media.istockphoto.com/id/492490622/photo/macbook-pro.jpg?s=612x612&w=0&k=20&c=dpiwULyQyJVHPJtTl6Kfyg0lZgcOM0NcmjnVxzh_myA=",
+      "name": "iphone",
+      "company": "apple",
+      "cost": 2000,
+      "orders": 1000,
+      "description": "Oynali Fotoaparat Canon EOS 6D Body"
+    },
+    {
+      "id": 8,
+      "img": "https://media.istockphoto.com/id/492490622/photo/macbook-pro.jpg?s=612x612&w=0&k=20&c=dpiwULyQyJVHPJtTl6Kfyg0lZgcOM0NcmjnVxzh_myA=",
+      "name": "iphone",
+      "company": "apple",
+      "cost": 3000,
+      "orders": 4000,
+      "description": "Apple Airpods Pro simsiz quloqchin , Oq rangda   "
+    },
+    {
+      "id": 9,
+      "img": "https://media.istockphoto.com/id/492490622/photo/macbook-pro.jpg?s=612x612&w=0&k=20&c=dpiwULyQyJVHPJtTl6Kfyg0lZgcOM0NcmjnVxzh_myA=",
+      "name": "iphone",
+      "company": "apple",
+      "cost": 4000,
+      "orders": 3000,
+      "description": "Robot - tozalagich Xiaomi Mi Robot"
+    },
+    {
+      "id": 10,
+      "img": "https://media.istockphoto.com/id/492490622/photo/macbook-pro.jpg?s=612x612&w=0&k=20&c=dpiwULyQyJVHPJtTl6Kfyg0lZgcOM0NcmjnVxzh_myA=",
+      "name": "iphone",
+      "company": "apple",
+      "cost": 5000,
+      "orders": 12000,
+      "description": "Oynali Fotoaparat Canon EOS 6D Body"
+    },
+    {
+      "id": 11,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCxXGKlhnLpB1N3SrjDRAPN6yqcgZ0hSL3i8Ybn3Hj9Q&s",
+      "name": "sansung s6",
+      "company": "samsung",
+      "cost": 1000,
+      "orders": 2000,
+      "description": "Apple Macbook Pro 13 2.4 2019 DDR3 8 GB SSD 256 GB "
+    },
+    {
+      "id": 12,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCxXGKlhnLpB1N3SrjDRAPN6yqcgZ0hSL3i8Ybn3Hj9Q&s",
+      "name": "samsung s7",
+      "company": "samsung",
+      "cost": 2000,
+      "orders": 1000,
+      "description": "Oynali Fotoaparat Canon EOS 6D Body"
+    },
+    {
+      "id": 13,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCxXGKlhnLpB1N3SrjDRAPN6yqcgZ0hSL3i8Ybn3Hj9Q&s",
+      "name": "samsung s8",
+      "company": "samsung",
+      "cost": 3000,
+      "orders": 4000,
+      "description": "Apple Airpods Pro simsiz quloqchin , Oq rangda   "
+    },
+    {
+      "id": 14,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCxXGKlhnLpB1N3SrjDRAPN6yqcgZ0hSL3i8Ybn3Hj9Q&s",
+      "name": "sansung s10 plus",
+      "company": "samsung",
+      "cost": 4000,
+      "orders": 3000,
+      "description": "Robot - tozalagich Xiaomi Mi Robot"
+    },
+    {
+      "id": 15,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCxXGKlhnLpB1N3SrjDRAPN6yqcgZ0hSL3i8Ybn3Hj9Q&s",
+      "name": "sansung s10",
+      "company": "samsung",
+      "cost": 5000,
+      "orders": 12000,
+      "description": "Oynali Fotoaparat Canon EOS 6D Body"
+    },
+    {
+      "id": 16,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCxXGKlhnLpB1N3SrjDRAPN6yqcgZ0hSL3i8Ybn3Hj9Q&s",
+      "name": "sansungj2",
+      "company": "samsung",
+      "cost": 1000,
+      "orders": 2000,
+      "description": "Apple Macbook Pro 13 2.4 2019 DDR3 8 GB SSD 256 GB "
+    },
+    {
+      "id": 17,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCxXGKlhnLpB1N3SrjDRAPN6yqcgZ0hSL3i8Ybn3Hj9Q&s",
+      "name": "sansugn s2",
+      "company": "samsung",
+      "cost": 2000,
+      "orders": 1000,
+      "description": "Oynali Fotoaparat Canon EOS 6D Body"
+    },
+    {
+      "id": 18,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCxXGKlhnLpB1N3SrjDRAPN6yqcgZ0hSL3i8Ybn3Hj9Q&s",
+      "name": "sansung ",
+      "company": "samsung",
+      "cost": 3000,
+      "orders": 4000,
+      "description": "Apple Airpods Pro simsiz quloqchin , Oq rangda   "
+    },
+    {
+      "id": 19,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCxXGKlhnLpB1N3SrjDRAPN6yqcgZ0hSL3i8Ybn3Hj9Q&s",
+      "name": "samsung s7",
+      "company": "samsung",
+      "cost": 4000,
+      "orders": 3000,
+      "description": "Robot - tozalagich Xiaomi Mi Robot"
+    },
+    {
+      "id": 20,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCxXGKlhnLpB1N3SrjDRAPN6yqcgZ0hSL3i8Ybn3Hj9Q&s",
+      "name": "sansung s8",
+      "company": "samsung",
+      "cost": 5000,
+      "orders": 12000,
+      "description": "Oynali Fotoaparat Canon EOS 6D Body"
+    },
+    {
+      "id": 21,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzcQyOqhwmyHogt9ZisTrf-5XssafOFoiwdA&usqp=CAU",
+      "name": "xiaomi 12",
+      "company": "xiaomi",
+      "cost": 1000,
+      "orders": 2000,
+      "description": "Apple Macbook Pro 13 2.4 2019 DDR3 8 GB SSD 256 GB "
+    },
+    {
+      "id": 22,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzcQyOqhwmyHogt9ZisTrf-5XssafOFoiwdA&usqp=CAU",
+      "name": "xiaomi 12",
+      "company": "xiaomi",
+      "cost": 2000,
+      "orders": 1000,
+      "description": "Oynali Fotoaparat Canon EOS 6D Body"
+    },
+    {
+      "id": 23,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzcQyOqhwmyHogt9ZisTrf-5XssafOFoiwdA&usqp=CAU",
+      "name": "xiaomi 12",
+      "company": "xiaomi",
+      "cost": 3000,
+      "orders": 4000,
+      "description": "Apple Airpods Pro simsiz quloqchin , Oq rangda   "
+    },
+    {
+      "id": 24,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzcQyOqhwmyHogt9ZisTrf-5XssafOFoiwdA&usqp=CAU",
+      "name": "xiaomi 12",
+      "company": "xiaomi",
+      "cost": 4000,
+      "orders": 3000,
+      "description": "Robot - tozalagich Xiaomi Mi Robot"
+    },
+    {
+      "id": 25,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzcQyOqhwmyHogt9ZisTrf-5XssafOFoiwdA&usqp=CAU",
+      "name": "xiaomi 12",
+      "company": "xiaomi",
+      "cost": 5000,
+      "orders": 12000,
+      "description": "Oynali Fotoaparat Canon EOS 6D Body"
+    },
+    {
+      "id": 26,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzcQyOqhwmyHogt9ZisTrf-5XssafOFoiwdA&usqp=CAU",
+      "name": "xiaomi 12",
+      "company": "xiaomi",
+      "cost": 1000,
+      "orders": 2000,
+      "description": "Apple Macbook Pro 13 2.4 2019 DDR3 8 GB SSD 256 GB "
+    },
+    {
+      "id": 27,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzcQyOqhwmyHogt9ZisTrf-5XssafOFoiwdA&usqp=CAU",
+      "name": "xiaomi 12",
+      "company": "xiaomi",
+      "cost": 2000,
+      "orders": 1000,
+      "description": "Oynali Fotoaparat Canon EOS 6D Body"
+    },
+    {
+      "id": 28,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzcQyOqhwmyHogt9ZisTrf-5XssafOFoiwdA&usqp=CAU",
+      "name": "xiaomi 12",
+      "company": "xiaomi",
+      "cost": 3000,
+      "orders": 4000,
+      "description": "Apple Airpods Pro simsiz quloqchin , Oq rangda   "
+    },
+    {
+      "id": 29,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzcQyOqhwmyHogt9ZisTrf-5XssafOFoiwdA&usqp=CAU",
+      "name": "xiaomi 12",
+      "company": "xiaomi",
+      "cost": 4000,
+      "orders": 3000,
+      "description": "Robot - tozalagich Xiaomi Mi Robot"
+    },
+    {
+      "id": 30,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzcQyOqhwmyHogt9ZisTrf-5XssafOFoiwdA&usqp=CAU",
+      "name": "xiaomi 12",
+      "company": "xiaomi",
+      "cost": 5000,
+      "orders": 12000,
+      "description": "Oynali Fotoaparat Canon EOS 6D Body"
+    }
+  ],
+  "catalog": [
+    {
+      "id": 1,
+      "catTitle": "smartfonlar",
+      "catImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCxXGKlhnLpB1N3SrjDRAPN6yqcgZ0hSL3i8Ybn3Hj9Q&s",
+      "smartfonlar": [
+        {
+          "id": 1,
+          "cost": "16 114 285",
+          "name": "iphone",
+          "company": "aplle",
+          "img": "https://media.istockphoto.com/id/492490622/photo/macbook-pro.jpg?s=612x612&w=0&k=20&c=dpiwULyQyJVHPJtTl6Kfyg0lZgcOM0NcmjnVxzh_myA=",
+          "description": "Apple Macbook Pro 13 2.4 2019 Intel core i5",
+          "orders": "230"
+        },
+        {
+          "id": 2,
+          "cost": "16 114 285",
+          "name": "iphone",
+          "company": "aplle",
+          "img": "https://media.istockphoto.com/id/492490622/photo/macbook-pro.jpg?s=612x612&w=0&k=20&c=dpiwULyQyJVHPJtTl6Kfyg0lZgcOM0NcmjnVxzh_myA=",
+          "description": "Apple Macbook Pro 13 2.4 2019 Intel core i5",
+          "orders": "230"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "catTitle": "Kompyuterlar va notebooklar",
+      "catImg": "https://media.istockphoto.com/id/492490622/photo/macbook-pro.jpg?s=612x612&w=0&k=20&c=dpiwULyQyJVHPJtTl6Kfyg0lZgcOM0NcmjnVxzh_myA=",
+      "KompyuterlarVaNotebooklar": [
+        {
+          "id": 1,
+          "img": "",
+          "title": "Shaxsiy kompyuter uchun keyslar"
+        },
+        {
+          "id": 2,
+          "img": "",
+          "title": "Laptop Notebooklar",
+          "notebooklar": [
+            {
+              "id": 1,
+              "img": "",
+              "cost": 16.114285,
+              "description": "Apple Macbook Pro 13 2.4 2019 Intel core i5 DDR3 8 GB SSD 256 GB",
+              "orders": 230
+            },
+            {
+              "id": 2,
+              "img": "",
+              "cost": 16.114285,
+              "description": "Apple Macbook Pro 13 2.4 2019 Intel core i5 DDR3 8 GB SSD 256 GB",
+              "orders": 230
+            },
+            {
+              "id": 3,
+              "img": "",
+              "cost": 16.114285,
+              "description": "Apple Macbook Pro 13 2.4 2019 Intel core i5 DDR3 8 GB SSD 256 GB",
+              "orders": 230
+            },
+            {
+              "id": 4,
+              "img": "",
+              "cost": 16.114285,
+              "description": "Apple Macbook Pro 13 2.4 2019 Intel core i5 DDR3 8 GB SSD 256 GB",
+              "orders": 230
+            },
+            {
+              "id": 5,
+              "img": "",
+              "cost": 16.114285,
+              "description": "Apple Macbook Pro 13 2.4 2019 Intel core i5 DDR3 8 GB SSD 256 GB",
+              "orders": 230
+            },
+            {
+              "id": 6,
+              "img": "",
+              "cost": 16.114285,
+              "description": "Apple Macbook Pro 13 2.4 2019 Intel core i5 DDR3 8 GB SSD 256 GB",
+              "orders": 230
+            },
+            {
+              "id": 7,
+              "img": "",
+              "cost": 16.114285,
+              "description": "Apple Macbook Pro 13 2.4 2019 Intel core i5 DDR3 8 GB SSD 256 GB",
+              "orders": 230
+            },
+            {
+              "id": 8,
+              "img": "",
+              "cost": 16.114285,
+              "description": "Apple Macbook Pro 13 2.4 2019 Intel core i5 DDR3 8 GB SSD 256 GB",
+              "orders": 230
+            },
+            {
+              "id": 9,
+              "img": "",
+              "cost": 16.114285,
+              "description": "Apple Macbook Pro 13 2.4 2019 Intel core i5 DDR3 8 GB SSD 256 GB",
+              "orders": 230
+            },
+            {
+              "id": 10,
+              "img": "",
+              "cost": 16.114285,
+              "description": "Apple Macbook Pro 13 2.4 2019 Intel core i5 DDR3 8 GB SSD 256 GB",
+              "orders": 230
+            },
+            {
+              "id": 11,
+              "img": "",
+              "cost": 16.114285,
+              "description": "Apple Macbook Pro 13 2.4 2019 Intel core i5 DDR3 8 GB SSD 256 GB",
+              "orders": 230
+            },
+            {
+              "id": 12,
+              "img": "",
+              "cost": 16.114285,
+              "description": "Apple Macbook Pro 13 2.4 2019 Intel core i5 DDR3 8 GB SSD 256 GB",
+              "orders": 230
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "img": "",
+          "title": "Shaxsiy kompyuter uchun monitorlar"
+        },
+        {
+          "id": 4,
+          "img": "",
+          "title": "Quloqchinlar"
+        },
+        {
+          "id": 5,
+          "img": "",
+          "title": "Mishkalar"
+        },
+        {
+          "id": 6,
+          "img": "",
+          "title": "Aksesuarlar"
+        },
+        {
+          "id": 7,
+          "img": "",
+          "title": "Kovreklar"
+        },
+        {
+          "id": 8,
+          "img": "",
+          "title": "Videokartalar"
+        },
+        {
+          "id": 9,
+          "img": "",
+          "title": "Protsessorlar"
+        },
+        {
+          "id": 10,
+          "img": "",
+          "title": "Komyuter sovutish tizimi"
+        },
+        {
+          "id": 11,
+          "img": "",
+          "title": "Block power kompyuter uchun"
+        },
+        {
+          "id": 12,
+          "img": "",
+          "title": "Notebooklar uchun"
+        },
+        {
+          "id": 13,
+          "img": "",
+          "title": "Keyboard "
+        },
+        {
+          "id": 14,
+          "img": "",
+          "title": "Tashqi himoyalovchi buyumlar"
+        },
+        {
+          "id": 15,
+          "img": "",
+          "title": "Zaryadlagichlari"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "catTitle": "Televizorlar",
+      "catImg": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT0OWzuXBG70fLsPfJIk-VLQMuWZoggFPz-nKIHH-NIbSJBU1_xGhEcAvmAIGBrWEwKq--FZi-ka2jqSTux_mc4CXux4xIah8TXbxE9PqG56KwyUqt5Lwi1nxQeN3r498YoMMQ&usqp=CAc",
+      "Televizorlar": [
+        {
+          "id": 1,
+          "cost": "16 114 285",
+          "name": "iphone",
+          "company": "aplle",
+          "img": "https://media.istockphoto.com/id/492490622/photo/macbook-pro.jpg?s=612x612&w=0&k=20&c=dpiwULyQyJVHPJtTl6Kfyg0lZgcOM0NcmjnVxzh_myA=",
+          "description": "Apple Macbook Pro 13 2.4 2019 Intel core i5",
+          "orders": "230"
+        },
+        {
+          "id": 2,
+          "cost": "16 114 285",
+          "name": "iphone",
+          "company": "aplle",
+          "img": "https://media.istockphoto.com/id/492490622/photo/macbook-pro.jpg?s=612x612&w=0&k=20&c=dpiwULyQyJVHPJtTl6Kfyg0lZgcOM0NcmjnVxzh_myA=",
+          "description": "Apple Macbook Pro 13 2.4 2019 Intel core i5",
+          "orders": "230"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "catTitle": "Aqlli soatlar",
+      "catImg": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT6XFk0L9ZBIkJwid-7qdpQY1kZ6wk6EmyuShtqZnrNoA6rEH8FQzXQpbCh9Lu5tqQXgEEXgnakNLoXQnqcUBW8IahXG714OV3uHGCO_l0H1SI-9N7CJbKL65j5q41vKvhrkw&usqp=CAc",
+      "AqlliSoatlar": [
+        {
+          "id": 1,
+          "cost": "16 114 285",
+          "name": "iphone",
+          "company": "aplle",
+          "img": "https://media.istockphoto.com/id/492490622/photo/macbook-pro.jpg?s=612x612&w=0&k=20&c=dpiwULyQyJVHPJtTl6Kfyg0lZgcOM0NcmjnVxzh_myA=",
+          "description": "Apple Macbook Pro 13 2.4 2019 Intel core i5",
+          "orders": "230"
+        },
+        {
+          "id": 2,
+          "cost": "16 114 285",
+          "name": "iphone",
+          "company": "aplle",
+          "img": "https://media.istockphoto.com/id/492490622/photo/macbook-pro.jpg?s=612x612&w=0&k=20&c=dpiwULyQyJVHPJtTl6Kfyg0lZgcOM0NcmjnVxzh_myA=",
+          "description": "Apple Macbook Pro 13 2.4 2019 Intel core i5",
+          "orders": "230"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "catTitle": "Quloqchinlar",
+      "catImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpN1rxuvXAsjHHULVQb-maOciEXnHYIpXdaU8CxoxM9w&s",
+      "Quloqchinlar": [
+        {
+          "id": 1,
+          "cost": "16 114 285",
+          "name": "iphone",
+          "company": "aplle",
+          "img": "https://media.istockphoto.com/id/492490622/photo/macbook-pro.jpg?s=612x612&w=0&k=20&c=dpiwULyQyJVHPJtTl6Kfyg0lZgcOM0NcmjnVxzh_myA=",
+          "description": "Apple Macbook Pro 13 2.4 2019 Intel core i5",
+          "orders": "230"
+        },
+        {
+          "id": 2,
+          "cost": "16 114 285",
+          "name": "iphone",
+          "company": "aplle",
+          "img": "https://media.istockphoto.com/id/492490622/photo/macbook-pro.jpg?s=612x612&w=0&k=20&c=dpiwULyQyJVHPJtTl6Kfyg0lZgcOM0NcmjnVxzh_myA=",
+          "description": "Apple Macbook Pro 13 2.4 2019 Intel core i5",
+          "orders": "230"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "catTitle": "Konditsioner",
+      "catImg": "data:image/jpeg;base64,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",
+      "Konditsioner": [
+        {
+          "id": 1,
+          "cost": "16 114 285",
+          "name": "iphone",
+          "company": "aplle",
+          "img": "https://media.istockphoto.com/id/492490622/photo/macbook-pro.jpg?s=612x612&w=0&k=20&c=dpiwULyQyJVHPJtTl6Kfyg0lZgcOM0NcmjnVxzh_myA=",
+          "description": "Apple Macbook Pro 13 2.4 2019 Intel core i5",
+          "orders": "230"
+        },
+        {
+          "id": 2,
+          "cost": "16 114 285",
+          "name": "iphone",
+          "company": "aplle",
+          "img": "https://media.istockphoto.com/id/492490622/photo/macbook-pro.jpg?s=612x612&w=0&k=20&c=dpiwULyQyJVHPJtTl6Kfyg0lZgcOM0NcmjnVxzh_myA=",
+          "description": "Apple Macbook Pro 13 2.4 2019 Intel core i5",
+          "orders": "230"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "catTitle": "Sovutkichlar",
+      "catImg": "data:image/jpeg;base64,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",
+      "Sovutkichlar": [
+        {
+          "id": 1,
+          "cost": "16 114 285",
+          "name": "iphone",
+          "company": "aplle",
+          "img": "https://media.istockphoto.com/id/492490622/photo/macbook-pro.jpg?s=612x612&w=0&k=20&c=dpiwULyQyJVHPJtTl6Kfyg0lZgcOM0NcmjnVxzh_myA=",
+          "description": "Apple Macbook Pro 13 2.4 2019 Intel core i5",
+          "orders": "230"
+        },
+        {
+          "id": 2,
+          "cost": "16 114 285",
+          "name": "iphone",
+          "company": "aplle",
+          "img": "https://media.istockphoto.com/id/492490622/photo/macbook-pro.jpg?s=612x612&w=0&k=20&c=dpiwULyQyJVHPJtTl6Kfyg0lZgcOM0NcmjnVxzh_myA=",
+          "description": "Apple Macbook Pro 13 2.4 2019 Intel core i5",
+          "orders": "230"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "catTitle": "Kir yuvish mashinalari",
+      "catImg": "data:image/jpeg;base64,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",
+      "KirYuvishMashinalari": [
+        {
+          "id": 1,
+          "cost": "16 114 285",
+          "name": "iphone",
+          "company": "aplle",
+          "img": "https://media.istockphoto.com/id/492490622/photo/macbook-pro.jpg?s=612x612&w=0&k=20&c=dpiwULyQyJVHPJtTl6Kfyg0lZgcOM0NcmjnVxzh_myA=",
+          "description": "Apple Macbook Pro 13 2.4 2019 Intel core i5",
+          "orders": "230"
+        },
+        {
+          "id": 2,
+          "cost": "16 114 285",
+          "name": "iphone",
+          "company": "aplle",
+          "img": "https://media.istockphoto.com/id/492490622/photo/macbook-pro.jpg?s=612x612&w=0&k=20&c=dpiwULyQyJVHPJtTl6Kfyg0lZgcOM0NcmjnVxzh_myA=",
+          "description": "Apple Macbook Pro 13 2.4 2019 Intel core i5",
+          "orders": "230"
+        }
+      ]
+    }
+  ]
+}
